@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > b64 > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > content > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > nigel > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > boom > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > content > boom > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > content > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > hapi > subtext > pez > nigel > vise > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > sntp > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > boom > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+    - gatsby > webpack-validator > joi > hoek:
+        patched: '2018-12-04T06:18:19.083Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2018-12-04T06:18:19.083Z'
+  'npm:moment:20170905':
+    - gatsby > webpack-validator > joi > moment:
+        patched: '2018-12-04T06:18:19.083Z'
